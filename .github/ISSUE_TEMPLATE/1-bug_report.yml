@@ -1,0 +1,114 @@
+name: 🐛 Bug Report
+description: Report a bug or issue in VibeSmith
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out this form to help us fix it quickly.
+  
+  - type: input
+    id: version
+    attributes:
+      label: VibeSmith Version
+      description: What version of VibeSmith are you using?
+      placeholder: "v0.1.0-beta"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you using?
+      options:
+        - macOS (Intel)
+        - macOS (Apple Silicon)
+        - Windows
+        - Linux
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - Free
+        - Pro
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Tell us what happened
+    validations:
+      required: true
+  
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open VibeSmith
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: I expected...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Instead, I saw...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem
+      placeholder: Drag and drop images here
+  
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs
+      description: If you have error logs, please paste them here
+      placeholder: |
+        Paste error logs here...
+      render: shell
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem
+      placeholder: This started happening after...
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to avoid duplicates
+          required: true
+        - label: I am using the latest version of VibeSmith
+          required: false

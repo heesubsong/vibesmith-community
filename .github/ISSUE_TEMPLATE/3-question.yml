@@ -1,0 +1,62 @@
+name: ❓ Question
+description: Ask a question about VibeSmith
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💬 **Quick tip:** For faster responses, try our [Discord](https://discord.gg/vibesmith) first!
+        
+        We use GitHub Issues for questions that might help others in the future.
+  
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: How do I...
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What is your question about?
+      options:
+        - Installation & Setup
+        - Core Features
+        - Dependency Graph
+        - Conflict Detection
+        - Context Optimizer
+        - Team Collaboration
+        - Plugins & Themes
+        - API & Integration
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: tried
+    attributes:
+      label: What I've Tried
+      description: What have you already tried?
+      placeholder: I tried...
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any additional information that might help
+      placeholder: I'm using...
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have checked the [documentation](https://github.com/aroido-bigcat/vibesmith-community/tree/main/docs)
+          required: true
+        - label: I have searched existing questions
+          required: true
