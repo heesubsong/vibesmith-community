@@ -10,6 +10,8 @@
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
 [![Version](https://img.shields.io/github/v/release/heesubsong/vibesmith-community?style=flat-square)](https://github.com/heesubsong/vibesmith-community/releases)
 
+**Language:** [🇺🇸 English](#) | [🇰🇷 한국어](README_KO.md)
+
 [📥 Download Beta](https://github.com/heesubsong/vibesmith-community/releases) | [📖 Docs](docs/) | [💬 Discord](https://discord.gg/vibesmith) | [🎥 Demo Video](#demo)
 
 ---
@@ -122,21 +124,35 @@ brew install --cask heesubsong/vibesmith/vibesmith
 
 **Free forever** • No credit card required • No login needed
 
-## 💎 Pricing
+## 🎁 100% Free (Beta)
 
-| Feature                  | Free          | Pro ($9.99/mo) |
-|-------------------------|---------------|----------------|
-| **Skills Management**    | ✅ Unlimited   | ✅ Unlimited    |
-| **Dependency Graph**     | ✅ 100 nodes   | ✅ Unlimited    |
-| **Context Optimizer**    | ✅ Basic       | ✅ Advanced     |
-| **Conflict Detection**   | ✅             | ✅              |
-| **Projects**             | 3 projects    | ✅ Unlimited    |
-| **Team Collaboration**   | ❌             | ✅ 10 members   |
-| **Cloud Sync**           | ❌             | ✅              |
-| **AI Recommendations**   | ❌             | ✅              |
-| **Priority Support**     | ❌             | ✅ 24h response |
+VibeSmith is currently **100% free** during beta! All features unlocked:
 
-[🎁 Start Free Forever](https://github.com/heesubsong/vibesmith-community/releases) • [💎 Upgrade to Pro](https://vibesmith.com/pricing)
+| Feature | Status |
+|---------|--------|
+| ✅ **Unlimited Skills Management** | Free Forever |
+| ✅ **Unlimited Projects** | Free Forever |
+| ✅ **Dependency Graph** | Free Forever |
+| ✅ **Conflict Detection** | Free Forever |
+| ✅ **Context Optimizer** | Free Forever |
+| ✅ **Smart Toggle** | Free Forever |
+| ✅ **Export/Import** | Free Forever |
+
+### 💎 Future Plans (Phase 2, 2026 Q3+)
+
+We plan to introduce optional **Pro features** while keeping core features free:
+
+| Feature | Free (Always) | Pro (Future) |
+|---------|---------------|--------------|
+| Core Features | ✅ All unlocked | ✅ All unlocked |
+| Projects | ✅ Unlimited | ✅ Unlimited |
+| **Team Collaboration** | ❌ | ✅ (Future) |
+| **Cloud Sync** | ❌ | ✅ (Future) |
+| **AI Recommendations** | ❌ | ✅ (Future) |
+
+> 🎉 **Early Adopter Promise:** Beta users will get **lifetime Pro discount** (50% off) when we launch!
+
+[🎁 Download Free Beta](https://github.com/heesubsong/vibesmith-community/releases)
 
 ---
 
