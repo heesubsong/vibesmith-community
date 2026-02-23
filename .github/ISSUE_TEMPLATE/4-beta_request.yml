@@ -1,0 +1,98 @@
+name: 🎁 Beta Access Request
+description: Request access to VibeSmith beta (Windows/Linux)
+title: "[Beta] "
+labels: ["beta-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🎉 **Thanks for your interest in VibeSmith beta!**
+        
+        Please fill out this form to join our beta program.
+  
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform do you want to test?
+      options:
+        - Windows
+        - Linux (Ubuntu/Debian)
+        - Linux (Arch/Manjaro)
+        - Linux (Fedora/RHEL)
+        - Linux (Other)
+    validations:
+      required: true
+  
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version
+      description: What version of your OS are you running?
+      placeholder: "e.g., Windows 11, Ubuntu 22.04"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: ai-tool
+    attributes:
+      label: Primary AI Tool
+      description: Which AI coding tool do you primarily use?
+      options:
+        - Cursor
+        - Claude Code
+        - Both
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How do you plan to use VibeSmith?
+      placeholder: |
+        I work on...
+        I have X skills/agents...
+        I want to...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: experience
+    attributes:
+      label: Experience with AI Coding Tools
+      description: Tell us about your experience
+      placeholder: |
+        - Years using AI tools: ...
+        - Number of projects: ...
+        - Number of skills/agents: ...
+    validations:
+      required: true
+  
+  - type: input
+    id: email
+    attributes:
+      label: Email (Optional)
+      description: We'll notify you when the beta is ready
+      placeholder: your.email@example.com
+  
+  - type: input
+    id: discord
+    attributes:
+      label: Discord Username (Optional)
+      description: Join our Discord community for beta updates
+      placeholder: username#1234
+  
+  - type: checkboxes
+    id: commitment
+    attributes:
+      label: Beta Tester Commitment
+      description: As a beta tester, I agree to
+      options:
+        - label: Provide feedback on bugs and features
+          required: true
+        - label: Test new features before public release
+          required: true
+        - label: Be patient with beta bugs and issues
+          required: true
