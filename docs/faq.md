@@ -8,20 +8,24 @@ VibeSmith is an **AI Agent Components Manager** for Cursor and Claude Code. It h
 
 ### Is VibeSmith free?
 
-Yes! VibeSmith has a **free tier** that includes:
-- Unlimited skills/agents/commands management
-- Up to 3 projects
-- Dependency graph (up to 100 nodes)
-- Conflict detection
-- Basic context optimizer
+**Yes! VibeSmith is 100% free during beta!** All features are unlocked:
+- ✅ Unlimited skills/agents/commands management
+- ✅ Unlimited projects
+- ✅ Unlimited dependency graph nodes
+- ✅ Conflict detection
+- ✅ Context optimizer
+- ✅ All core features
 
-**Pro tier** ($9.99/month) adds:
-- Unlimited projects
-- Unlimited dependency graph nodes
-- Team collaboration (10 members)
+### Will it stay free?
+
+**Yes!** Core features will **always be free**. 
+
+In Phase 2 (2026 Q3+), we may introduce optional **Pro features** like:
+- Team collaboration
 - Cloud sync
-- AI recommendations
-- Priority support
+- AI-powered recommendations
+
+**Early Adopter Promise:** Beta users get **lifetime 50% Pro discount** when we launch!
 
 ### Does VibeSmith require an internet connection?
 
@@ -139,43 +143,53 @@ Smart Toggle lets you enable/disable components without deleting them:
 
 ## Billing & Pricing
 
-### How do I upgrade to Pro?
+### Is there a paid plan now?
 
-1. Go to Settings → Account
-2. Click "Upgrade to Pro"
-3. Enter payment details
-4. Start using Pro features immediately
+**No!** VibeSmith is currently **100% free** during beta (Phase 1).
 
-### Can I cancel anytime?
+### When will Pro features launch?
 
-**Yes!** Cancel anytime, no questions asked. You'll keep Pro features until the end of your billing period.
+We plan to introduce optional Pro features in **Phase 2 (2026 Q3 or later)**.
 
-### Do you offer refunds?
+**Core features will always remain free:**
+- Skills/Agents/Commands management
+- Dependency graph
+- Conflict detection
+- Context optimizer
 
-Yes! Full refund within **30 days** of purchase, no questions asked.
+**Future Pro features (optional):**
+- Team collaboration (10+ members)
+- Cloud sync across devices
+- AI-powered recommendations
 
-### Is there a student/nonprofit discount?
+### Will beta users get a discount?
 
-Yes! Email us at support@vibesmith.com with proof of student/nonprofit status for **50% off Pro**.
+**Yes!** Beta users will receive **lifetime 50% Pro discount** when Pro tier launches.
+
+### Can I use VibeSmith commercially?
+
+**Yes!** VibeSmith is free for both personal and commercial use during beta.
 
 ---
 
 ## Team & Collaboration
 
-### How does team collaboration work? (Pro)
+### Can I share skills with my team?
 
-Pro tier includes:
-- **Shared Skills:** Team library of approved skills
-- **Sync:** Auto-sync skills across team members
-- **Permissions:** Read/Write access control
-- **Activity:** See who made changes
-
-### Can free users share skills?
-
-Yes! Use the **Export/Import** feature:
+**Yes!** Use the **Export/Import** feature (100% free):
 1. Select skill → Export → Save `.json` file
 2. Share file with teammate
 3. Teammate: Import → Select `.json` file
+
+### Will there be team collaboration features?
+
+Yes! In **Phase 2 (2026 Q3+)**, we plan to add:
+- **Shared Team Library** - Team-wide skill repository
+- **Auto-Sync** - Automatic sync across team members
+- **Permissions** - Read/Write access control
+- **Activity Log** - See who made changes
+
+These will be **optional Pro features**. Core export/import stays free!
 
 ---
 
