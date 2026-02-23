@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Community
+    url: https://discord.gg/vibesmith
+    about: Join our Discord for real-time chat and support
+  - name: 💭 GitHub Discussions
+    url: https://github.com/heesubsong/vibesmith-community/discussions
+    about: Ask questions and share ideas with the community
+  - name: 📚 Documentation
+    url: https://github.com/heesubsong/vibesmith-community/tree/main/docs
+    about: Read the documentation and guides
+  - name: 📧 Email Support
+    url: mailto:support@vibesmith.com
+    about: Contact us directly via email (Pro users)
