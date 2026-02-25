@@ -2,23 +2,82 @@
 
 > 📝 This document was automatically generated. If you find any errors or have suggestions, please report them via [Issue](https://github.com/heesubsong/vibesmith-community/issues).
 
+## What are Skills?
+
+**Skills** are reusable command sets that enable AI agents to perform specific tasks.
+
+### Advantages of Skills
+
+- **Reusability**: Write once, use across multiple projects
+- **Consistency**: Entire team works with same patterns
+- **Automation**: Automate repetitive tasks
+- **Sharing**: Share best practices with community
+
+### Skill Usage Examples
+
+#### 1. Code Generation Skill
+```
+@react-component-generator
+  - Component name: UserProfile
+  - Type: Functional
+  - Styling: Chakra UI
+```
+
+#### 2. Refactoring Skill
+```
+@code-refactoring
+  - Target: legacy/user-service.ts
+  - Pattern: Class → Functional
+  - Include tests: true
+```
+
+#### 3. Documentation Skill
+```
+@auto-documentation
+  - Target: src/utils/
+  - Language: English + Korean
+  - Format: JSDoc
+```
+
 ## Navigate to Skills Page
 
 ![Navigate to Skills Page](images/skills-01-list.png)
 
-Click **Skills** in the left sidebar to view all your skills.
+Click **Skills** menu in the left sidebar to view all skills.
 
-The Skills page displays:
-- Skill names and descriptions
-- Tags (categories)
-- Paths (local or global)
-- Status (active or inactive)
+### Skill List Information
+
+Each skill card displays:
+
+- **Name**: Unique identifier (kebab-case)
+- **Description**: Brief explanation of what the skill does
+- **Tags**: Category and purpose classification
+  - `code-gen`: Code generation
+  - `refactoring`: Refactoring
+  - `testing`: Testing
+  - `docs`: Documentation
+  - `analysis`: Analysis
+- **Path**: 
+  - 🏠 **Local**: Apply to current project only
+  - 🌍 **Global**: Apply to all projects
+- **Status**:
+  - ✅ **Active**: Currently available
+  - ⏸️ **Inactive**: Temporarily disabled
+- **Recent Use**: Last invocation time
+- **Usage Count**: Total invocation count
+
+### List View Options
+
+- **Card View**: Visually rich card format (default)
+- **List View**: Concise list format
+- **Grid View**: View more skills at once
 
 ### 💡 Useful Tips
 
-💡 Use the search box to quickly find any skill.
-💡 Click a tag to filter by category.
-💡 Sort by name, last modified, or category.
+💡 Use search box to quickly find desired skills.
+💡 Click tags to filter skills by that tag.
+💡 List can be sorted by name, last modified, usage frequency, or category.
+💡 Set favorites (⭐) for quick access to frequently used skills.
 
 ## Search for Skills
 
@@ -26,139 +85,139 @@ The Skills page displays:
 
 ![Search for Skills Demo](gifs/skills-search-demo.gif)
 
-Type any keyword in the search box to filter skills in real-time.
+Type keywords in the search box to filter skills in real-time.
 
 Search capabilities:
-- **Name search**: Find skills by name
+- **Name search**: Search within skill names
 - **Description search**: Search within descriptions
-- **Tag search**: Filter by tags
-- **Fuzzy search**: Typo-tolerant smart search
+- **Tag search**: Search within tags
+- **Fuzzy search**: Smart search allowing typos
 
 ## Create New Skill
 
 ![Create New Skill](images/skills-03-new-modal.png)
 
-Click the **+ New Skill** button in the top right to open the creation dialog.
+Click the **+ New Skill** button in the top right to open skill creation modal.
 
-Required fields:
+Items to configure in modal:
 1. **Skill Name** (required)
 2. **Description** (required)
-3. **Type** (Skill, Agent, Command, Hook, or Rule)
-4. **Path** (local or global)
-5. **Tags** (optional)
+3. **Type** selection (Skill, Agent, Command, Hook, Rule)
+4. **Path** selection (local/global)
+5. **Tags** addition (optional)
 
-### ⚠️ Warnings
+### ⚠️ Cautions
 
-⚠️ Skill names must use kebab-case format (e.g., `my-awesome-skill`)
-⚠️ Names cannot be changed after creation — choose carefully.
-⚠️ Global skills apply to all projects — use with caution.
+⚠️ Skill names must be in kebab-case. (e.g., `my-awesome-skill`)
+⚠️ Names cannot be changed after creation, so enter carefully.
+⚠️ Global skills are used in all projects, so caution is needed.
 
-## Fill in Skill Information
+## Enter Skill Information
 
-![Fill Skill Information](images/skills-04-form-filled.png)
+![Enter Skill Information](images/skills-04-form-filled.png)
 
-Complete each field:
+Fill in each field in order:
 
 ### 1. Skill Name
-- Use kebab-case format
-- Examples: `my-awesome-skill`, `react-component-generator`
+- Enter in kebab-case format
+- Example: `my-awesome-skill`, `react-component-generator`
 - No spaces or special characters
 
 ### 2. Description
-- Clearly explain what the skill does
-- Example: "Automatically generates React components"
+- Clearly describe what the skill does
+- Example: "Skill that automatically generates React components"
 
 ### 3. Type Selection
-- **Skill**: General AI capability
+- **Skill**: General AI skill
 - **Agent**: Automated agent
 - **Command**: Slash command
 - **Hook**: Git hook
 - **Rule**: Project rule
 
 ### 4. Path Selection
-- **Local**: Current project only
-- **Global**: All projects
+- **Local**: Apply to current project only
+- **Global**: Apply to all projects
 
 ### 💡 Useful Tips
 
-💡 Detailed descriptions improve searchability.
-💡 Tags help organize and find related skills.
+💡 Write description in detail as it's important for later searches.
+💡 Adding tags makes finding related skills easier.
 
-## Complete Skill Creation
+## Skill Creation Complete
 
-![Complete Skill Creation](images/skills-05-created.png)
+![Skill Creation Complete](images/skills-05-created.png)
 
-Click **Create** to finalize your skill.
+Click the **Create** button to create the skill.
 
-What happens next:
-- Your new skill appears in the skills list
-- You're automatically taken to the skill detail page
-- A skill file is created on disk
+After creation:
+- New skill appears in skill list
+- Automatically navigate to skill detail page
+- Skill file created in file system
 
-File locations:
+File Location:
 - **Local**: `.cursor/skills/{skill-name}/SKILL.md`
 - **Global**: `~/.cursor/skills/{skill-name}/SKILL.md`
 
-### 📝 Notes
+### 📝 Note
 
-📝 Newly created skills work immediately in Cursor AI.
-📝 You can edit skill files directly in your editor.
+📝 Created skill files are immediately available in Cursor AI.
+📝 You can also directly edit skill files.
 
 ## View Skill Details
 
 ![View Skill Details](images/skills-06-detail.png)
 
-Click any skill card to see its full details.
+Click skill card to view detailed information.
 
-Detail page includes:
-- Metadata (name, description, tags)
-- Full content (SKILL.md)
+Information available on detail page:
+- Skill metadata (name, description, tags)
+- Skill content (SKILL.md)
 - Usage statistics
 - Related dependencies
-- Modification history
+- Recent modification history
 
-Available actions:
-- ✏️ **Edit**: Modify the skill
-- 📋 **Copy**: Duplicate to another project
-- 🗑️ **Delete**: Remove the skill
-- 🔄 **Sync**: Sync between local and global
+Possible actions:
+- ✏️ **Edit**: Modify skill content
+- 📋 **Copy**: Copy to another project
+- 🗑️ **Delete**: Delete skill
+- 🔄 **Sync**: Synchronize local ↔ global
 
 ## Edit Skill
 
 ![Edit Skill](images/skills-07-edit.png)
 
-Click **Edit** to modify your skill.
+Click **Edit** button to modify skill content.
 
 Edit modes:
 - **Visual Editor**: Form-based editing
-- **Markdown Editor**: Edit markdown directly
-- **Live Preview**: See changes in real-time
+- **Markdown Editor**: Direct markdown editing
+- **Live Preview**: Immediately confirm changes
 
-Click **Save** when you're done.
+Click **Save** button after editing to save changes.
 
 ### 💡 Useful Tips
 
-💡 Quick save: Cmd+S (Mac) or Ctrl+S (Windows)
-💡 Format help: Press Cmd+/ in the markdown editor
+💡 Quickly save with Cmd+S (Mac) or Ctrl+S (Windows).
+💡 View format help with Cmd+/ in markdown editor.
 
 ## Delete Skill
 
 ![Delete Skill](images/skills-08-delete-confirm.png)
 
-Click **Delete** to show a confirmation dialog.
+Click **Delete** button to show confirmation dialog.
 
-Important notes:
-- The skill file will be permanently deleted
-- This action cannot be undone
-- Deleting global skills affects all your projects
+When deleting:
+- Skill file completely removed from file system
+- Cannot be recovered, so choose carefully
+- Deleting global skill affects all projects
 
-Confirm deletion to proceed.
+Click **Delete** button after confirmation to complete deletion.
 
-### ⚠️ Warnings
+### ⚠️ Cautions
 
 ⚠️ Deleted skills cannot be recovered.
-⚠️ Global skill deletion affects all projects.
-⚠️ Consider deactivating the skill instead of deleting.
+⚠️ Deleting global skills removes them from all projects.
+⚠️ Consider deactivating instead.
 
 ---
 

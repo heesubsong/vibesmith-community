@@ -8,35 +8,121 @@
 
 ![Global Search Demo](gifs/search-demo.gif)
 
-Open global search using the **search box** in the header or press **Cmd+K** (Mac) / **Ctrl+K** (Windows).
+**Global Search** is a powerful tool to quickly find all components.
+
+### Opening Search
+
+- **Keyboard**: `Cmd+K` (Mac) / `Ctrl+K` (Windows)
+- **Mouse**: Click search icon in top header
+- **Menu**: View > Search
 
 ## Search Scope
 
-- **Name**: Component names
-- **Description**: Component descriptions
-- **Tags**: Tagged categories
-- **Path**: File paths
-- **Content**: Full content of SKILL.md, AGENT.md, etc.
+### Basic Search Fields
+
+- **Name**: Component's unique identifier
+  - Example: `react-component-generator`
+- **Description**: Component description
+  - Example: "Auto-generate React components"
+- **Tags**: Classification tags
+  - Example: `code-gen`, `react`, `testing`
+- **Path**: File system path
+  - Example: `.cursor/skills/`, `~/.cursor/skills/`
+- **Content**: Full file content
+  - `SKILL.md`, `AGENT.md`, etc.
+
+### Search Tips
+
+```
+✅ Good Examples:
+"react component"     → Exact phrase search
+/^test-.*$/          → Pattern matching with regex
+tag:testing          → Filter by specific tag
+
+❌ Avoid:
+Single characters (a, b) → Too many results
+Too generic words        → Many irrelevant results
+```
 
 ## Search Modes
 
-- **Fuzzy Search**: Typo-tolerant (default)
-- **Exact Search**: Use quotes (`"exact match"`)
-- **Regex Search**: Use slashes (`/regex/`)
+### 1. Fuzzy Search (Default)
+**Feature**: Smart search allowing typos
+
+**Example**:
+```
+Input: "recat compnent"
+Result: "react component" found ✅
+```
+
+**Algorithm**: Based on Levenshtein Distance
+
+### 2. Exact Search
+**Usage**: Wrap with quotes
+
+**Example**:
+```
+"react-component-generator"  → Only exact matches
+"API integration"            → Entire phrase must match
+```
+
+### 3. Regex Search
+**Usage**: Wrap with slashes
+
+**Example**:
+```
+/^test-.*$/          → All items starting with test-
+/.*-generator$/      → Items ending with -generator
+/(react|vue)-.*$/    → Starting with react- or vue-
+```
+
+**Regex Reference**:
+- `.` : Any single character
+- `*` : 0 or more repetitions
+- `+` : 1 or more repetitions
+- `^` : Start
+- `$` : End
+- `|` : OR
+- `[]` : Character class
+
+### 4. Advanced Filter Search
+**Usage**: `field:value` format
+
+**Example**:
+```
+tag:testing           → Items with testing tag
+path:local            → Items in local path
+type:agent            → Agent type only
+status:active         → Active status only
+author:@username      → Specific author
+```
+
+**Combinable**:
+```
+tag:react type:skill status:active
+→ Search only active React skills
+```
 
 ## Keyboard Shortcuts
 
-- **Cmd+K / Ctrl+K**: Open search
-- **↑ ↓**: Navigate results
-- **Enter**: Open selected
-- **Cmd+Enter**: Open in new tab
-- **Esc**: Close
+### Basic Shortcuts
+- `Cmd+K` / `Ctrl+K`: Open search
+- `↑` `↓`: Navigate results
+- `Enter`: Open selected item
+- `Cmd+Enter`: Open in new tab
+- `Esc`: Close search
+
+### Advanced Shortcuts
+- `Cmd+Shift+K`: Toggle filters
+- `Tab`: Next section
+- `Shift+Tab`: Previous section
+- `/`: Change search mode
 
 ## Advanced Filters
 
 ![Advanced Filters](images/search-02-filters.png)
 
-Click **Filter** to access advanced filtering options.
+Click **Filters** button to show advanced filter options.
 
 ## Filter Options
 
@@ -48,49 +134,133 @@ Click **Filter** to access advanced filtering options.
 - Rules
 
 ### By Path
-- Local (`.cursor/`)
-- Global (`~/.cursor/`)
+- Local (.cursor/)
+- Global (~/.cursor/)
 
 ### By Tag
-- Select multiple tags
-- Choose AND/OR logic
+- Multiple tag selection available
+- Select AND/OR conditions
 
 ### By Date
 - Last modified
-- Creation date
-- Presets: Last week, month, 3 months
+- Created date
+- Last week, month, 3 months
 
 ## Sorting
 
-- **Name**: Alphabetically
-- **Recent**: Most recent first
-- **Usage**: Most frequently used
-- **Dependencies**: Most connected first
+- **Name**: Alphabetical order
+- **Last Modified**: Newest first
+- **Usage Frequency**: Most used first
+- **Dependencies**: Most dependencies first
 
 ## Saved Searches
 
 ![Saved Searches](images/search-03-saved.png)
 
-Save your frequently used searches for quick access.
+Save frequently used search criteria for quick reuse.
 
-## Saving a Search
+### Saving Searches
 
-1. Configure your filters
-2. Click **Save**
-3. Name your search
-4. Confirm
+1. Set desired search criteria
+2. Click **Save** button (⭐ icon)
+3. Enter search name and description
+4. **Confirm**
 
-## Using Saved Searches
+### Managing Saved Searches
 
-- Open the **Saved Searches** tab
-- Select any saved search
-- Filters apply instantly
+**Load**:
+- **Saved Searches** tab in search box (📚)
+- Click desired search
+- Apply immediately
 
-## Examples
+**Edit**:
+- Hover over saved search
+- Click ✏️ edit icon
+- Modify criteria and save
 
-- "My Skills": Local skills from the last week
-- "React Related": Contains the "react" tag
-- "Test Skills": Names containing "test"
+**Delete**:
+- Hover over saved search
+- Click 🗑️ delete icon
+
+### Practical Saved Search Examples
+
+#### Development Workflow
+```
+📌 "Today's Work"
+   → Local + Last 24 hours + status:active
+
+📌 "Need Tests"
+   → tag:testing + status:pending
+
+📌 "Awaiting Review"
+   → tag:review + Last week
+```
+
+#### By Project
+```
+📌 "React Project"
+   → tag:react + path:local
+
+📌 "Backend Skills"
+   → tag:backend + tag:api
+
+📌 "Common Utils"
+   → tag:utility + path:global
+```
+
+#### Maintenance
+```
+📌 "Old Skills"
+   → Last modified 6+ months ago
+
+📌 "Not Used"
+   → Usage count 0
+
+📌 "Many Dependencies"
+   → Dependencies 10+
+```
+
+## Search Optimization Tips
+
+### 1. Progressive Search
+```
+Step 1: Broad keyword → "component"
+Step 2: Add filter    → tag:react
+Step 3: Narrow scope  → path:local
+```
+
+### 2. Use Boolean Operations
+```
+AND: All conditions satisfied
+  react component testing
+
+OR: Any condition satisfied
+  react|vue|angular
+
+NOT: Exclude
+  component -deprecated
+```
+
+### 3. Use Wildcards
+```
+*      : All characters
+test-* : Starts with test-
+*-util : Ends with -util
+*core* : Contains core
+```
+
+### 4. Improve Search Speed
+```
+✅ Fast Search:
+- Use specific keywords
+- Specify fields (tag:, path:)
+- Use saved searches
+
+❌ Slow Search:
+- Too generic words
+- Complex regex
+- Full content search
+```
 
 ---
 
