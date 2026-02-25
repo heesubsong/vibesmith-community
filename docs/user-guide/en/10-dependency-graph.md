@@ -8,76 +8,151 @@
 
 ![Open Dependency Graph Demo](gifs/dependencies-graph-demo.gif)
 
-Click **Dependencies** in the left sidebar to explore the interactive dependency graph.
+Click **Dependencies** in the left sidebar to view the interactive dependency graph.
 
-## What is the Dependency Graph?
+## What is Dependency Graph?
 
-A visual map showing how components relate to each other.
+**Dependency Graph** is an interactive diagram that visually represents relationships between all components in your project.
 
-- **Nodes**: Individual components (Skills, Agents, Commands, etc.)
-- **Edges**: Dependencies (when A references B)
-- **Color**: Distinguishes component types
-- **Size**: Scales with dependency count
+### Graph Elements
 
-## Graph Controls
+#### Nodes
+Represent each component:
+- Skills, Agents, Commands, Hooks, Rules
+- Click to show details
+- Hover for quick preview
 
-- **Zoom**: Mouse wheel or pinch gesture
-- **Pan**: Click and drag
-- **Select**: Click any node
-- **Reset**: Double-click
+#### Edges
+Represent dependency relationships:
+- **Solid line**: Direct dependency
+- **Dashed line**: Indirect dependency
+- **Arrow**: Dependency direction
+
+#### Color Codes
+- 🔵 **Blue**: Skills
+- 🟢 **Green**: Agents
+- 🟡 **Yellow**: Commands
+- 🟣 **Purple**: Hooks
+- 🔴 **Red**: Rules
+- ⚫ **Gray**: External dependencies
+- 🔴 **Circular**: Red highlight for circular references
+
+#### Size
+Proportional to dependency count:
+- **Large nodes**: Many dependencies (hub)
+- **Small nodes**: Few dependencies
+
+### How to Use the Graph
+
+#### 1. Dependency Analysis
+
+**Find Circular References**
+```
+A → B → C → A (🔴 Problem!)
+```
+Circular references need refactoring.
+
+**Identify Bottlenecks**
+```
+Central-Skill ← 10 components
+```
+Too many dependencies is a warning sign.
+
+**Discover Isolated Components**
+```
+Orphan-Skill (no connections)
+```
+May be unused components.
+
+#### 2. Refactoring Planning
+
+**Assess Complexity**
+- Check complexity by node size
+- Check coupling by edge density
+- Identify module boundaries by clusters
+
+**Restructuring Strategy**
+```
+Before: A ← B, C, D, E, F (high coupling)
+After:  A ← Common ← B, C, D, E, F (low coupling)
+```
+
+#### 3. Impact Assessment
+
+**Change Impact Analysis**
+```
+Skill-A change → Skill-B, Skill-C affected
+```
+
+**Deletion Safety Verification**
+```
+Before deleting Skill-X → Verify 0 dependencies ✅
+```
+
+**Update Priority**
+```
+Low-Level → Mid-Level → High-Level
+```
+
+## Graph Operations
+
+- **Zoom**: Mouse wheel or pinch
+- **Pan**: Drag
+- **Select**: Click node
+- **Reset**: Double click
 
 ### 💡 Useful Tips
 
-💡 Circular dependencies appear in red.
-💡 Orphan nodes (no connections) appear in gray.
-💡 Customize the layout by dragging nodes.
+💡 Circular references displayed in red.
+💡 Orphan nodes (no dependencies) shown in gray.
+💡 Drag nodes to adjust layout.
 
 ## Filter and Search
 
 ![Filter and Search](images/dependencies-02-filter.png)
 
-Use the filter controls at the top to focus on specific components.
+Use filters at top of graph to display specific components only.
 
 ## Filter Options
 
-- **By Type**: Skills, Agents, Commands, Hooks, or Rules
-- **By Path**: Local or Global
-- **By Tag**: Show only specific tags
-- **Depth**: Set exploration depth (1-3 levels)
+- **By Type**: Skills, Agents, Commands, Hooks, Rules
+- **By Path**: Local, Global
+- **By Tag**: Show specific tags only
+- **Depth**: Dependency exploration depth (1-3 levels)
 
 ## Search
 
-Type a keyword to:
+Enter keyword in search box:
 - Highlight matching nodes
-- Reveal related dependencies
-- Emphasize connection paths
+- Show related dependencies
+- Emphasize paths
 
 ## Layout Algorithms
 
-- **Force-directed**: Automatic placement (default)
-- **Hierarchical**: Top-down hierarchy
-- **Circular**: Radial arrangement
-- **Grid**: Structured grid
+- **Force-directed**: Auto placement (default)
+- **Hierarchical**: Hierarchical layout
+- **Circular**: Circular layout
+- **Grid**: Grid layout
 
 ## Node Details
 
 ![Node Details](images/dependencies-03-node-detail.png)
 
-Click any node to see its details in the right panel.
+Click node to show details in right panel.
 
-## Information Displayed
+## Display Information
 
-- **Basic Info**: Name, type, and path
-- **Dependencies**: Components this one uses
-- **Dependents**: Components that depend on this one
-- **Statistics**: Dependency count and depth
+- **Basic Info**: Name, type, path
+- **Dependencies**: Other components this component uses
+- **Dependents**: Components that use this component
+- **Statistics**: Total dependency count, depth
 
 ## Quick Actions
 
-- **Open File**: Launch in your editor
-- **View Details**: Navigate to full details
-- **Copy**: Duplicate to another project
-- **Related**: Focus on connected nodes only
+- **Open File**: Open in editor
+- **View Details**: Navigate to component detail page
+- **Copy**: Copy to another project
+- **Related Items**: Show related dependencies only
 
 ---
 
