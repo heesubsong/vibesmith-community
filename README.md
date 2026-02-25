@@ -39,13 +39,12 @@ Download from [GitHub Releases](https://github.com/heesubsong/vibesmith/releases
 
 See the [User Guide](docs/user-guide/) for detailed instructions.
 
-## 🤝 Contributing
+## 🤝 Community
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Share your skills, agents, and best practices with other VibeSmith users!
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
+- **Discussions**: [GitHub Discussions](https://github.com/heesubsong/vibesmith-community/discussions)
+- **Issues**: [Report bugs or request features](https://github.com/heesubsong/vibesmith-community/issues)
 
 ## 🔗 Links
 

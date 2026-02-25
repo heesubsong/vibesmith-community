@@ -79,8 +79,8 @@ Need help?
 ### 💡 Useful Tips
 
 💡 VibeSmith runs completely locally and never sends your data anywhere.
-💡 Open-source project — contributions welcome!
-💡 Share your skills with the community.
+💡 Share your skills and best practices with the community.
+💡 Regular updates bring new features and improvements.
 
 ---
 

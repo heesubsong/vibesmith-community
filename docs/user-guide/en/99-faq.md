@@ -6,7 +6,7 @@
 
 ## Is VibeSmith free?
 
-Yes, VibeSmith is completely free and an open-source project.
+Yes, VibeSmith is free for personal and commercial use.
 
 ## What's the difference between Cursor and Claude Code?
 
