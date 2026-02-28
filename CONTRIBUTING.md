@@ -4,6 +4,11 @@ Thank you for your interest in contributing! 🎉
 
 ## 🤝 How to Contribute
 
+## 🔐 Identity Standard
+
+Before opening a PR, follow [IDENTITY_STANDARD.md](IDENTITY_STANDARD.md).
+Only the allowlisted handles/emails/nicknames are permitted in this repository.
+
 ### Documentation
 
 - Fix typos or improve clarity
