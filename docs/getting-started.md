@@ -10,7 +10,7 @@ Welcome to VibeSmith! This guide will help you install and set up VibeSmith on y
 
 ```bash
 # Add the VibeSmith tap
-brew tap aroido-bigcat/vibesmith
+brew tap aroido/vibesmith
 
 # Install VibeSmith
 brew install --cask vibesmith
@@ -18,7 +18,7 @@ brew install --cask vibesmith
 
 #### Option 2: Direct Download
 
-1. Download the latest `.dmg` file from [Releases](https://github.com/aroido-bigcat/vibesmith-community/releases)
+1. Download the latest `.dmg` file from [Releases](https://github.com/aroido/vibesmith-community/releases)
 2. Open the `.dmg` file
 3. Drag **VibeSmith** to your Applications folder
 4. Launch VibeSmith from Applications
@@ -29,13 +29,13 @@ brew install --cask vibesmith
 
 ⏳ **Coming Soon!** 
 
-[Sign up for Windows beta](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=4-beta_request.yml)
+[Sign up for Windows beta](https://github.com/aroido/vibesmith-community/issues/new?template=4-beta_request.yml)
 
 ### Linux
 
 ⏳ **Coming Soon!**
 
-[Sign up for Linux beta](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=4-beta_request.yml)
+[Sign up for Linux beta](https://github.com/aroido/vibesmith-community/issues/new?template=4-beta_request.yml)
 
 ---
 
@@ -146,7 +146,7 @@ Access settings via **VibeSmith → Settings** (macOS) or **File → Settings** 
 - 🔧 [Troubleshooting](troubleshooting.md) - Common issues
 - ❓ [FAQ](faq.md) - Frequently asked questions
 - 💬 [Discord](https://discord.gg/vibesmith) - Community support
-- 🐛 [Report Bug](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml)
+- 🐛 [Report Bug](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml)
 
 ---
 
@@ -160,4 +160,4 @@ Access settings via **VibeSmith → Settings** (macOS) or **File → Settings** 
 
 ---
 
-**Need help?** Ask in our [Discord](https://discord.gg/vibesmith) or [GitHub Discussions](https://github.com/aroido-bigcat/vibesmith-community/discussions)!
+**Need help?** Ask in our [Discord](https://discord.gg/vibesmith) or [GitHub Discussions](https://github.com/aroido/vibesmith-community/discussions)!

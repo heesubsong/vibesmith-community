@@ -56,7 +56,7 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I have checked the [documentation](https://github.com/aroido-bigcat/vibesmith-community/tree/main/docs)
+        - label: I have checked the [documentation](https://github.com/aroido/vibesmith-community/tree/main/docs)
           required: true
         - label: I have searched existing questions
           required: true

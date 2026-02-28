@@ -4,15 +4,15 @@
 > 
 > Manage your 100+ skills, agents, and commands without going crazy.
 
-[![Downloads](https://img.shields.io/github/downloads/aroido-bigcat/vibesmith-community/total?style=flat-square)](https://github.com/aroido-bigcat/vibesmith-community/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/aroido-bigcat/vibesmith-community?style=flat-square)](https://github.com/aroido-bigcat/vibesmith-community/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/aroido/vibesmith-community/total?style=flat-square)](https://github.com/aroido/vibesmith-community/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/aroido/vibesmith-community?style=flat-square)](https://github.com/aroido/vibesmith-community/stargazers)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/vibesmith)
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/aroido-bigcat/vibesmith-community?style=flat-square)](https://github.com/aroido-bigcat/vibesmith-community/releases)
+[![Version](https://img.shields.io/github/v/release/aroido/vibesmith-community?style=flat-square)](https://github.com/aroido/vibesmith-community/releases)
 
 **Language:** [🇺🇸 English](#) | [🇰🇷 한국어](README_KO.md)
 
-[📥 Download Beta](https://github.com/aroido-bigcat/vibesmith-community/releases) | [📖 Docs](docs/) | [💬 Discord](https://discord.gg/vibesmith) | [🎥 Demo Video](#demo)
+[📥 Download Beta](https://github.com/aroido/vibesmith-community/releases) | [📖 Docs](docs/) | [💬 Discord](https://discord.gg/vibesmith) | [🎥 Demo Video](#demo)
 
 ---
 
@@ -110,15 +110,15 @@
 
 **Homebrew (Coming Soon):**
 ```bash
-brew install --cask aroido-bigcat/vibesmith/vibesmith
+brew install --cask aroido/vibesmith/vibesmith
 ```
 
 **Direct Download:**
-- [macOS .dmg (Intel)](https://github.com/aroido-bigcat/vibesmith-community/releases)
-- [macOS .dmg (Apple Silicon)](https://github.com/aroido-bigcat/vibesmith-community/releases)
+- [macOS .dmg (Intel)](https://github.com/aroido/vibesmith-community/releases)
+- [macOS .dmg (Apple Silicon)](https://github.com/aroido/vibesmith-community/releases)
 
 ### Windows & Linux
-⏳ **Coming Soon!** [Sign up for beta](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=beta_request.md)
+⏳ **Coming Soon!** [Sign up for beta](https://github.com/aroido/vibesmith-community/issues/new?template=beta_request.md)
 
 ---
 
@@ -152,7 +152,7 @@ We plan to introduce optional **Pro features** while keeping core features free:
 
 > 🎉 **Early Adopter Promise:** Beta users will get **lifetime Pro discount** (50% off) when we launch!
 
-[🎁 Download Free Beta](https://github.com/aroido-bigcat/vibesmith-community/releases)
+[🎁 Download Free Beta](https://github.com/aroido/vibesmith-community/releases)
 
 ---
 
@@ -167,7 +167,7 @@ We plan to introduce optional **Pro features** while keeping core features free:
 > "The conflict detection caught 15 duplicate skills I didn't know I had. Instant cleanup!"  
 > — **@techwriter** (Managing 5 projects)
 
-💬 **Join 100+ Beta Users** • [Share Your Story](https://github.com/aroido-bigcat/vibesmith-community/discussions/categories/show-and-tell)
+💬 **Join 100+ Beta Users** • [Share Your Story](https://github.com/aroido/vibesmith-community/discussions/categories/show-and-tell)
 
 ---
 
@@ -198,9 +198,9 @@ Join our growing community of AI developers!
 | Platform | Description |
 |----------|-------------|
 | 💬 [**Discord**](https://discord.gg/vibesmith) | Real-time chat, support, and collaboration |
-| 💭 [**GitHub Discussions**](https://github.com/aroido-bigcat/vibesmith-community/discussions) | Q&A, ideas, and feature requests |
+| 💭 [**GitHub Discussions**](https://github.com/aroido/vibesmith-community/discussions) | Q&A, ideas, and feature requests |
 | 📣 [**Reddit**](https://reddit.com/r/vibesmith) | News, tips, and community stories |
-| 🐛 [**Issue Tracker**](https://github.com/aroido-bigcat/vibesmith-community/issues) | Bug reports and technical issues |
+| 🐛 [**Issue Tracker**](https://github.com/aroido/vibesmith-community/issues) | Bug reports and technical issues |
 | 🐦 [**Twitter**](https://twitter.com/vibesmith) | Updates and announcements |
 
 ### 🗓️ Community Events
@@ -235,7 +235,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 🐛 Found a Bug?
 
-[🐛 Report Bug](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=bug_report.yml) • [💡 Request Feature](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=feature_request.yml) • [❓ Ask Question](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=question.yml)
+[🐛 Report Bug](https://github.com/aroido/vibesmith-community/issues/new?template=bug_report.yml) • [💡 Request Feature](https://github.com/aroido/vibesmith-community/issues/new?template=feature_request.yml) • [❓ Ask Question](https://github.com/aroido/vibesmith-community/issues/new?template=question.yml)
 
 ---
 
@@ -271,7 +271,7 @@ See [LICENSE](LICENSE) for full terms.
 
 - 📧 **Email:** support@vibesmith.com
 - 💬 **Discord:** [Join Community](https://discord.gg/vibesmith)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/aroido-bigcat/vibesmith-community/issues)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/aroido/vibesmith-community/issues)
 - 📚 **Documentation:** [docs/](docs/)
 
 ---
@@ -280,7 +280,7 @@ See [LICENSE](LICENSE) for full terms.
 
 **Made with 🎵 by [@aroido-bigcat](https://github.com/aroido-bigcat) & [@aroido-kkachi](https://github.com/aroido-kkachi)**
 
-[⭐ Star this repo](https://github.com/aroido-bigcat/vibesmith-community) • [🐦 Follow on Twitter](https://twitter.com/vibesmith) • [💬 Join Discord](https://discord.gg/vibesmith)
+[⭐ Star this repo](https://github.com/aroido/vibesmith-community) • [🐦 Follow on Twitter](https://twitter.com/vibesmith) • [💬 Join Discord](https://discord.gg/vibesmith)
 
 ---
 

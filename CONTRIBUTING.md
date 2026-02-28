@@ -26,7 +26,7 @@ Thank you for your interest in contributing! 🎉
 
 - Use the [feature request template](.github/ISSUE_TEMPLATE/feature_request.md)
 - Explain your use case
-- Discuss in [Discussions](https://github.com/aroido-bigcat/vibesmith-community/discussions) first
+- Discuss in [Discussions](https://github.com/aroido/vibesmith-community/discussions) first
 
 ## 📜 License
 
@@ -34,4 +34,4 @@ By contributing, you agree that your contributions will be licensed under CC BY 
 
 ## 💬 Questions?
 
-Join our [Discord](https://discord.gg/vibesmith) or start a [Discussion](https://github.com/aroido-bigcat/vibesmith-community/discussions).
+Join our [Discord](https://discord.gg/vibesmith) or start a [Discussion](https://github.com/aroido/vibesmith-community/discussions).

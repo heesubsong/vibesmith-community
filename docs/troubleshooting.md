@@ -281,7 +281,7 @@ xattr -cr /Applications/VibeSmith.app
    - Reinstall
 
 4. **Report bug:**
-   - [Create issue](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml)
+   - [Create issue](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml)
    - Attach log files
 
 ### "Cannot read property of undefined" error
@@ -347,7 +347,7 @@ brew update
 brew install --cask vibesmith
 
 # If fails, try direct download
-# https://github.com/aroido-bigcat/vibesmith-community/releases
+# https://github.com/aroido/vibesmith-community/releases
 ```
 
 ### Windows: Installation blocked by antivirus
@@ -379,15 +379,15 @@ chmod +x VibeSmith-*.AppImage
 ### Before asking for help:
 
 1. ✅ Check this troubleshooting guide
-2. ✅ Search [GitHub Issues](https://github.com/aroido-bigcat/vibesmith-community/issues)
+2. ✅ Search [GitHub Issues](https://github.com/aroido/vibesmith-community/issues)
 3. ✅ Check [FAQ](faq.md)
 4. ✅ Try [Discord search](https://discord.gg/vibesmith)
 
 ### Get support:
 
 - 💬 **Discord** (fastest): https://discord.gg/vibesmith
-- 💭 **Discussions**: https://github.com/aroido-bigcat/vibesmith-community/discussions
-- 🐛 **Bug Report**: [Create Issue](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml)
+- 💭 **Discussions**: https://github.com/aroido/vibesmith-community/discussions
+- 🐛 **Bug Report**: [Create Issue](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml)
 - 📧 **Email** (Pro only): support@vibesmith.com
 
 ### When reporting issues:

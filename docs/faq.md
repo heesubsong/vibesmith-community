@@ -248,9 +248,9 @@ Check out [plugins/](../plugins/) for examples.
 ## Still Have Questions?
 
 - 💬 [Discord Community](https://discord.gg/vibesmith) - Real-time chat
-- 💭 [GitHub Discussions](https://github.com/aroido-bigcat/vibesmith-community/discussions) - Q&A
+- 💭 [GitHub Discussions](https://github.com/aroido/vibesmith-community/discussions) - Q&A
 - 📧 [Email Support](mailto:support@vibesmith.com) - Pro users only
-- 🐛 [Report Bug](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml)
+- 🐛 [Report Bug](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml)
 
 ---
 

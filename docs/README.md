@@ -28,10 +28,10 @@ Welcome to the VibeSmith documentation! This guide will help you get the most ou
 
 ## 🚀 Quick Links
 
-- [Download VibeSmith](https://github.com/aroido-bigcat/vibesmith-community/releases)
-- [Report a Bug](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml)
-- [Request a Feature](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=2-feature_request.yml)
-- [Ask a Question](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=3-question.yml)
+- [Download VibeSmith](https://github.com/aroido/vibesmith-community/releases)
+- [Report a Bug](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml)
+- [Request a Feature](https://github.com/aroido/vibesmith-community/issues/new?template=2-feature_request.yml)
+- [Ask a Question](https://github.com/aroido/vibesmith-community/issues/new?template=3-question.yml)
 
 ---
 

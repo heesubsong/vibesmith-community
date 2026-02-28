@@ -160,16 +160,16 @@ Special thanks to our contributors:
 - [ ] AI-powered recommendations
 - [ ] Team collaboration (Pro)
 
-See [Roadmap](https://github.com/aroido-bigcat/vibesmith-community/projects/1) for details.
+See [Roadmap](https://github.com/aroido/vibesmith-community/projects/1) for details.
 
 ---
 
 ## 📞 Support
 
-- 📖 [Documentation](https://github.com/aroido-bigcat/vibesmith-community/tree/main/docs)
+- 📖 [Documentation](https://github.com/aroido/vibesmith-community/tree/main/docs)
 - 💬 [Discord Community](https://discord.gg/vibesmith)
-- 🐛 [Report Bug](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml)
-- 💡 [Request Feature](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=2-feature_request.yml)
+- 🐛 [Report Bug](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml)
+- 💡 [Request Feature](https://github.com/aroido/vibesmith-community/issues/new?template=2-feature_request.yml)
 
 ---
 
@@ -190,6 +190,6 @@ Enjoying VibeSmith? [Upgrade to Pro](https://vibesmith.com/pricing) for:
 
 **Made with 🎵 by the VibeSmith Team**
 
-[⭐ Star us on GitHub](https://github.com/aroido-bigcat/vibesmith-community) • [🐦 Follow on Twitter](https://twitter.com/vibesmith) • [💬 Join Discord](https://discord.gg/vibesmith)
+[⭐ Star us on GitHub](https://github.com/aroido/vibesmith-community) • [🐦 Follow on Twitter](https://twitter.com/vibesmith) • [💬 Join Discord](https://discord.gg/vibesmith)
 
 </div>

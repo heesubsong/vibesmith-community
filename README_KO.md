@@ -4,15 +4,15 @@
 > 
 > 100개 이상의 스킬, 에이전트, 커맨드를 미치지 않고 관리하세요.
 
-[![Downloads](https://img.shields.io/github/downloads/aroido-bigcat/vibesmith-community/total?style=flat-square)](https://github.com/aroido-bigcat/vibesmith-community/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/aroido-bigcat/vibesmith-community?style=flat-square)](https://github.com/aroido-bigcat/vibesmith-community/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/aroido/vibesmith-community/total?style=flat-square)](https://github.com/aroido/vibesmith-community/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/aroido/vibesmith-community?style=flat-square)](https://github.com/aroido/vibesmith-community/stargazers)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/vibesmith)
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/aroido-bigcat/vibesmith-community?style=flat-square)](https://github.com/aroido-bigcat/vibesmith-community/releases)
+[![Version](https://img.shields.io/github/v/release/aroido/vibesmith-community?style=flat-square)](https://github.com/aroido/vibesmith-community/releases)
 
 **언어:** [🇺🇸 English](README.md) | [🇰🇷 한국어](#)
 
-[📥 베타 다운로드](https://github.com/aroido-bigcat/vibesmith-community/releases) | [📖 문서](docs/) | [💬 디스코드](https://discord.gg/vibesmith) | [🎥 데모 영상](#demo)
+[📥 베타 다운로드](https://github.com/aroido/vibesmith-community/releases) | [📖 문서](docs/) | [💬 디스코드](https://discord.gg/vibesmith) | [🎥 데모 영상](#demo)
 
 ---
 
@@ -110,15 +110,15 @@
 
 **Homebrew (준비 중):**
 ```bash
-brew install --cask aroido-bigcat/vibesmith/vibesmith
+brew install --cask aroido/vibesmith/vibesmith
 ```
 
 **직접 다운로드:**
-- [macOS .dmg (Intel)](https://github.com/aroido-bigcat/vibesmith-community/releases)
-- [macOS .dmg (Apple Silicon)](https://github.com/aroido-bigcat/vibesmith-community/releases)
+- [macOS .dmg (Intel)](https://github.com/aroido/vibesmith-community/releases)
+- [macOS .dmg (Apple Silicon)](https://github.com/aroido/vibesmith-community/releases)
 
 ### Windows & Linux
-⏳ **준비 중!** [베타 신청하기](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=4-beta_request.yml)
+⏳ **준비 중!** [베타 신청하기](https://github.com/aroido/vibesmith-community/issues/new?template=4-beta_request.yml)
 
 ---
 
@@ -154,7 +154,7 @@ VibeSmith는 현재 베타 기간 동안 **100% 무료**입니다! 모든 기능
 
 > 🎉 **얼리어답터 약속:** 베타 사용자에게는 출시 시 **평생 Pro 할인 50%** 제공!
 
-[🎁 무료 베타 다운로드](https://github.com/aroido-bigcat/vibesmith-community/releases)
+[🎁 무료 베타 다운로드](https://github.com/aroido/vibesmith-community/releases)
 
 ---
 
@@ -169,7 +169,7 @@ VibeSmith는 현재 베타 기간 동안 **100% 무료**입니다! 모든 기능
 > "충돌 감지가 제가 모르고 있던 15개의 중복 스킬을 찾아냈어요. 즉시 정리 완료!"  
 > — **@techwriter** (5개 프로젝트 관리 중)
 
-💬 **100명 이상의 베타 사용자** • [이야기 공유하기](https://github.com/aroido-bigcat/vibesmith-community/discussions/categories/show-and-tell)
+💬 **100명 이상의 베타 사용자** • [이야기 공유하기](https://github.com/aroido/vibesmith-community/discussions/categories/show-and-tell)
 
 ---
 
@@ -202,9 +202,9 @@ VibeSmith는 현재 베타 기간 동안 **100% 무료**입니다! 모든 기능
 | 플랫폼 | 설명 |
 |--------|------|
 | 💬 [**디스코드**](https://discord.gg/vibesmith) | 실시간 채팅, 지원 및 협업 |
-| 💭 [**GitHub Discussions**](https://github.com/aroido-bigcat/vibesmith-community/discussions) | Q&A, 아이디어 및 기능 요청 |
+| 💭 [**GitHub Discussions**](https://github.com/aroido/vibesmith-community/discussions) | Q&A, 아이디어 및 기능 요청 |
 | 📣 [**Reddit**](https://reddit.com/r/vibesmith) | 뉴스, 팁 및 커뮤니티 스토리 |
-| 🐛 [**Issue 트래커**](https://github.com/aroido-bigcat/vibesmith-community/issues) | 버그 리포트 및 기술 이슈 |
+| 🐛 [**Issue 트래커**](https://github.com/aroido/vibesmith-community/issues) | 버그 리포트 및 기술 이슈 |
 | 🐦 [**Twitter**](https://twitter.com/vibesmith) | 업데이트 및 공지사항 |
 
 ### 🗓️ 커뮤니티 이벤트
@@ -239,7 +239,7 @@ VibeSmith는 현재 베타 기간 동안 **100% 무료**입니다! 모든 기능
 
 ## 🐛 버그를 발견하셨나요?
 
-[🐛 버그 리포트](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=1-bug_report.yml) • [💡 기능 요청](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=2-feature_request.yml) • [❓ 질문하기](https://github.com/aroido-bigcat/vibesmith-community/issues/new?template=3-question.yml)
+[🐛 버그 리포트](https://github.com/aroido/vibesmith-community/issues/new?template=1-bug_report.yml) • [💡 기능 요청](https://github.com/aroido/vibesmith-community/issues/new?template=2-feature_request.yml) • [❓ 질문하기](https://github.com/aroido/vibesmith-community/issues/new?template=3-question.yml)
 
 ---
 
@@ -275,7 +275,7 @@ VibeSmith는 현재 베타 기간 동안 **100% 무료**입니다! 모든 기능
 
 - 📧 **이메일:** support@vibesmith.com
 - 💬 **디스코드:** [커뮤니티 참여](https://discord.gg/vibesmith)
-- 🐛 **버그 리포트:** [GitHub Issues](https://github.com/aroido-bigcat/vibesmith-community/issues)
+- 🐛 **버그 리포트:** [GitHub Issues](https://github.com/aroido/vibesmith-community/issues)
 - 📚 **문서:** [docs/](docs/)
 
 ---
@@ -284,7 +284,7 @@ VibeSmith는 현재 베타 기간 동안 **100% 무료**입니다! 모든 기능
 
 **🎵 [@aroido-bigcat](https://github.com/aroido-bigcat) & [@aroido-kkachi](https://github.com/aroido-kkachi)이 만듦**
 
-[⭐ 이 리포에 Star 주기](https://github.com/aroido-bigcat/vibesmith-community) • [🐦 Twitter 팔로우](https://twitter.com/vibesmith) • [💬 디스코드 참여](https://discord.gg/vibesmith)
+[⭐ 이 리포에 Star 주기](https://github.com/aroido/vibesmith-community) • [🐦 Twitter 팔로우](https://twitter.com/vibesmith) • [💬 디스코드 참여](https://discord.gg/vibesmith)
 
 ---
 
